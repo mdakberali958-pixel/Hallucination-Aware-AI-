@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-generativeai
+sentence-transformers
+faiss-cpu
+numpy
+pymongo
+PyPDF2
+python-dotenv
+pyjwt
+sse-starlette

@@ -1,0 +1,8 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+GEMINI_API_KEY = os.getenv("AIzaSyDaxpBSXyOwpMyeH1CdFODKIXeRvKMB2DI")
+MONGO_URI = os.getenv("mongodb+srv://mdakberali958_db_user:mdakberali958_db_user@cluster013.ujj5fa2.mongodb.net/?retryWrites=true&w=majority")
+JWT_SECRET = os.getenv("JWT_SECRET", "change_me")
+MODEL_NAME = os.getenv("MODEL_NAME", "gemini-1.5-flash")
